@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNEEK PLAYER</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main App Body -->
+    <div class="main_container">
+
+        <!-- Aside SideBar -->
+        <aside class="side_bar">
+            <div class="nav_logo">
+                <i class="ri-spotify-line"></i>
+            </div>
+
+            <nav>
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">
+                            <i class="ri-home-2-line"></i>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">
+                            <i class="ri-file-music-line"></i>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">
+                            <i class="ri-search-2-line"></i>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">
+                            <i class="ri-file-cloud-line"></i>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">
+                            <i class="ri-heart-3-line"></i>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">
+                            <i class="ri-add-circle-line"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <a class="nav_down-arrow" href="">
+                <i class="ri-arrow-down-line"></i>
+            </a>
+        </aside>
+
+        <!-- Middle Player Section -->
+        <div class="main_player">
+
+            <div class="player_info">
+                
+                <div class="player_actions">
+                    <a class="player_play-btn" href="">
+                        <i class="ri-play-line"></i>
+                    </a>
+                    <p class="player_status">Now Playing</p>
+
+                    <div class="player_desc">
+                        <p class="player_song-title">
+                            We Cry Togerther
+                        </p>
+    
+                        <div class="player_action_btn">
+                            <a href="#">
+                                <i class="ri-play-list-line"></i>
+                            </a>
+                            <a href="#">
+                                <i class="ri-star-line"></i>
+                            </a>
+                            <a href="#">
+                                <i class="ri-cast-line"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <main class="main">
+            <div class="main_intro">
+                <div class="intro_top">
+                    <div class="intro_profile">
+                        <a href="#" class="left_arrow">
+                            <i class="ri-arrow-left-line"></i>
+                        </a>
+
+                        <div class="intro_profile_">
+                            <img src="/images/avatar2.png" alt="">
+                            <p>John Doe</p>
+                            <a href="#">
+                            <i class="ri-arrow-down-s-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="intro_info">
+                        <p>Album</p>
+                        <h1>Islands of the Lost and Forgotten</h1>
+                    </div>
+
+                    <div class="intro_actions">
+                        <div class="song_name">
+                            <i class="ri-headphone-line"></i>
+                            <p class="">Drake</p>
+                        </div>
+
+                        <div class="song_info">
+                            <i class="ri-play-list-line"></i>
+                            <p>82 songs <span>about 1 hr 36 mn</span></p>
+                        </div>
+
+                        <div class="song_actions">
+                            <a href="">
+                                <i class="ri-heart-3-line"></i>
+                            </a>
+
+                            <a href="">
+                                <i class="ri-message-3-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="main_song_list">
+                <div class="song_list_title">
+                    <span>#</span>
+                    <p>Disc 1-Isle of Serenity and Amnesia</p>
+
+                    <span class="clock">
+                        <i class="ri-time-line"></i>
+                    </span>
+                </div>
+
+                <div class="disc_container">
+                    <span>
+                        <i class="ri-disc-fill"></i>
+                    </span>
+                    <p>
+                        Disc 1
+                    </p>
+                </div>
+
+                <div class="song_list" id="song_list">
+                    <!-- PLaylist Song -->
+                    <div 
+                    class="song_item_details">
+                        <a href="">
+                        <i class="ri-play-circle-line"></i>
+                        </a>
+
+                        <div class="song-name">
+                            <p class="song_title">Peaceful Wishes</p>
+                            <p class="song_creator">Drake</p>
+                        </div>
+
+                        <div class="song-info">
+                            <span>
+                                <i class="ri-heart-line"></i>
+                            </span>
+
+                            <p>4:08</p>
+
+                            <span>
+                                <i class="ri-more-fill"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="song_item_details song-playing">
+                        <a href="">
+                            <i class="ri-play-circle-line"></i>
+                        </a>
+                    
+                        <div class="song-name">
+                            <p class="song_title">Peaceful Wishes</p>
+                            <p class="song_creator">Drake</p>
+                        </div>
+                    
+                        <div class="song-info">
+                            <span>
+                                <i class="ri-heart-line"></i>
+                            </span>
+                    
+                            <p>4:08</p>
+                    
+                            <span>
+                                <i class="ri-more-fill"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+            </div>
+
+            <div class="main_player_control">
+                <div >
+                    <ul class="play_btn">
+                        <li>
+                            <span><i class="ri-shuffle-fill"></i></span>
+                        </li>
+                        <li>
+                            <span id="prev-btn">
+                              <i class="ri-skip-back-fill"></i>  
+                            </span>
+                        </li>
+                        <li id="play-btn">
+                            <span><i class="ri-pause-circle-fill"></i></span>
+                        </li>
+                        <li id="next-btn">
+                            <a href="#" >
+                                <i class="ri-skip-forward-fill"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><i class="ri-restart-line"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="player_progress_bar">
+                    <input type="range" name="" id="">
+                </div>
+            </div>
+        </main>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
